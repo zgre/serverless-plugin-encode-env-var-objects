@@ -1,0 +1,1 @@
+# serverless-plugin-encode-env-var-objects
