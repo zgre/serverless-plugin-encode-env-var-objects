@@ -1,6 +1,6 @@
 {
   "name": "serverless-plugin-encode-env-var-objects",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Serverless plugin to encode any environment variable objects",
   "author": "Yonomi (http://yonomi.co)",
   "contributors": [
