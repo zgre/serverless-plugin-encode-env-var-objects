@@ -1,0 +1,40 @@
+{
+  "name": "serverless-plugin-encode-env-var-objects",
+  "version": "1.0.0",
+  "description": "Serverless plugin to encode any environment variable objects",
+  "main": "index.js",
+  "author": "Yonomi (http://yonomi.co)",
+  "contributors": [
+    "Garett Madole <garett@yonomi.co>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonomi/serverless-plugin-encode-env-var-objects.git"
+  },
+  "keywords": [
+    "serverless",
+    "serverless plugin"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yonomi/serverless-plugin-encode-env-var-objects/issues"
+  },
+  "homepage": "https://github.com/yonomi/serverless-plugin-encode-env-var-objects#readme",
+  "scripts": {
+    "lint": "eslint . || true",
+    "test": "mocha tests/all --recursive",
+    "coverage": "istanbul cover npm test"
+  },
+  "dependencies": {
+    "lodash": "4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "3.12.2",
+    "eslint-config-standard": "6.2.1",
+    "eslint-plugin-mocha": "4.8.0",
+    "eslint-plugin-promise": "3.4.0",
+    "eslint-plugin-standard": "2.0.1",
+    "istanbul": "0.4.5",
+    "mocha": "3.2.0"
+  }
+}
