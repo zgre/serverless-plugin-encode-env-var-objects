@@ -19,7 +19,7 @@ module.exports = exports = class EncodeEnvironmentVariableObjects {
     };
   }
 
-  beforeDeployResources() {
+  beforeInitializePackage() {
 
     let envProperties = [];
     if (this._serverless.service.custom && this._serverless.service.custom.encodeEnvObjects) {
