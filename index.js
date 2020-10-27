@@ -7,15 +7,15 @@ module.exports = exports = class EncodeEnvironmentVariableObjects {
   constructor(serverless, options) {
     this._serverless = serverless;
     this.commands = {
-      deploy: {
+      initialize: {
         lifecycleEvents: [
-          'resources'
+          'package'
         ]
       }
     };
 
     this.hooks = {
-      'before:deploy:resources': this.beforeDeployResources.bind(this)
+      'before:initialize:package': this.beforeInitializePackage.bind(this)
     };
   }
 
